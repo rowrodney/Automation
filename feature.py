@@ -11,3 +11,7 @@ for name in s:
 for i in d['e']:
     if '.' in i:
         print(i.split('.')[0].upper(),end=',')
+
+for i in d['F']:
+    if 'FSI' in i:
+        print(i.split(':')[2],end=',')
